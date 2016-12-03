@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>With in Reach</title>
+</head>
+<body>
+	<div class="principal text-center" id="principal">
+		<div class="logo">
+			<img src="img/logo.png">
+		</div>
+		<div class="texto">
+			<p>Type in your location and Search Keywords to find Jobs</p>
+		</div>
+		<div class="pack">
+			<input type="text" name="ciudad" id="ciudad">
+			<input type="text" name="trabajo" id= trabajo>
+			<button type="button" class="btn" id="botonuno">See Results</button>
+		</div>
+	</div>
+	<div id="resultado" class="resultado"></div>
+	<!-- <div id="paginacion" class="paginacion"></div> -->
+	<div id="mapa"></div>
+	<script type="text/javascript" src="https://gdc.indeed.com/ads/apiresults.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3f_itecFhNIkNeSsWovplQm_0bY5b6LI" async defer></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

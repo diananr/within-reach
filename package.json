@@ -1,0 +1,22 @@
+{
+  "name": "whitinreach",
+  "version": "1.0.0",
+  "description": "Replica de un buscador de trabajo",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "APIs",
+    "AJAX",
+    "googlemaps",
+    "indeed"
+  ],
+  "author": "Diana Navarro <navarroruiz.diana@gmail.com>",
+  "license": "MIT"
+}
